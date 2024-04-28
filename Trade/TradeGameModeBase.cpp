@@ -3,3 +3,8 @@
 
 #include "TradeGameModeBase.h"
 
+
+void ATradeGameModeBase::PawnKilled(APawn* PawnKilled)
+{
+    
+}
