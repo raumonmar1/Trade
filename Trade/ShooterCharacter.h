@@ -23,7 +23,7 @@ protected:
 
 public:	
 	UFUNCTION(BlueprintPure)
-	bool isDead() const;
+	bool IsDead() const;
 
 
 	// Called every frame
