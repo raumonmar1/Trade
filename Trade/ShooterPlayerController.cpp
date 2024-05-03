@@ -10,7 +10,7 @@ void AShooterPlayerController::GameHasEnded(class AActor* EndGameFocus, bool bIs
 {
     Super::GameHasEnded(EndGameFocus, bIsWinner);
 
-    UU  serWidget* LoseScreen = CreateWidget(this, LoseScreenClass);
+    UUserWidget* LoseScreen = CreateWidget(this, LoseScreenClass);
     if (LoseScreen != nullptr)
     {
         LoseScreen->AddToViewport();
